@@ -36,7 +36,7 @@ PIR Sensor – Detects human motion (used for identifying presence during emerge
 Sound Sensor – Detects abnormal noise levels, helpful in identifying distress.
 
 📡 How HomeSecure Works
-Sensor Module (ESP32 + MQ-2 + PIR + Sound Sensor) monitors the environment for emergencies.
+Sensor Module (ESP32 + MQ-2 + PIR + Sound Sensor LM393) monitors the environment for emergencies.
 Sensor readings are pushed in real-time to Firebase.
 A React-based Web App fetches and visualizes this data.
 Users interact with an AI Chatbot (Gemini 2.0) for emergency-related queries.
